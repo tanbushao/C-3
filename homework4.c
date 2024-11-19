@@ -1,7 +1,7 @@
 /*
 题目：水仙花数
 什么是水仙花数？
-水仙花数（也称为阿姆斯特朗数）是指一个?位数，其各位数字的n次方之和等于该数本身。
+水仙花数（也称为阿姆斯特朗数）是指一个n位数，其各位数字的n次方之和等于该数本身。
 */
 
 #include <stdio.h>
@@ -10,7 +10,7 @@
 int main()
 {
     int num,digit,sum;
-    printf("三位数中的水仙花数有:");
+    printf("The narcissistic numbers among three-digit numbers:");
 
     for(num = 100;num < 1000;num++){
         int temp = num;
